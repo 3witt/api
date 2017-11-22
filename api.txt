@@ -8,9 +8,13 @@ https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=XXX
 请求类型：GET
 
 主要参数：
+
+--khd , 0为小程序，1为移动端
+
 --id，用户ID
 
-例如：https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=cardinfo&id=1
+例如：
+https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=cardinfo&id=1&khd=0
 
 ------------------------------------------------------------------------------------------------------
 
@@ -20,11 +24,39 @@ https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=XXX
 
 主要参数：
 
+--khd , 0为小程序，1为移动端
+
 --look ，当look默认等于0，当look=0，获取人气排行榜，=1，获取点赞排行榜，=2是获取收藏排行榜
+
 --pn , 获取数据的页数
+
 --pz ，不传值情况默认获取10行
 
 例如：
 https://ceshi.9yetech.com/app/index.php?i=2&c=entry&do=looklist&m=www_art&look=0&pn=1&pz=10
 
+------------------------------------------------------------------------------------------------------
+
+编辑名片信息：do=editcard
+
+
+请求类型：GET
+
+主要参数：
+
+--khd , 0为小程序，1为移动端
+
+POST参数名：
+
+id                  id
+user_true_name      姓名	    
+user_zhiwu          职务	    
+user_true_phone     电话号码	
+user_gongsi         公司	    
+user_email          邮箱	    
+photos              图片（数组）	
+
+
+例如：
+https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=editcard&khd=0
 ------------------------------------------------------------------------------------------------------
