@@ -3,6 +3,30 @@ https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=XXX
 
 ------------------------------------------------------------------------------------------------------
 
+编辑名片信息：do=editcard
+
+
+请求类型：POST
+
+主要参数：
+
+--khd , 0为小程序，1为移动端
+
+POST参数名：
+
+id                  id
+user_true_name      姓名	    
+user_zhiwu          职务	    
+user_true_phone     电话号码	
+user_gongsi         公司	    
+user_email          邮箱	    
+photos              图片（数组）	
+
+
+例如：
+https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=editcard&khd=0
+------------------------------------------------------------------------------------------------------
+
 获取用户信息：do=cardinfo
 
 请求类型：GET
@@ -35,28 +59,4 @@ https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=cardinfo&id=1&k
 例如：
 https://ceshi.9yetech.com/app/index.php?i=2&c=entry&do=looklist&m=www_art&look=0&pn=1&pz=10
 
-------------------------------------------------------------------------------------------------------
-
-编辑名片信息：do=editcard
-
-
-请求类型：GET
-
-主要参数：
-
---khd , 0为小程序，1为移动端
-
-POST参数名：
-
-id                  id
-user_true_name      姓名	    
-user_zhiwu          职务	    
-user_true_phone     电话号码	
-user_gongsi         公司	    
-user_email          邮箱	    
-photos              图片（数组）	
-
-
-例如：
-https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=editcard&khd=0
 ------------------------------------------------------------------------------------------------------
