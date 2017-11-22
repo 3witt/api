@@ -1,7 +1,6 @@
 API地址：
 https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=XXX
 
-
 获取用户信息：do=cardinfo
 
 请求类型：GET
@@ -10,8 +9,6 @@ https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=XXX
 --id，用户ID
 
 例如：https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=cardinfo&id=1
-
-
 
 
 排行榜获取：do=looklist
