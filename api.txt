@@ -18,7 +18,7 @@ https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=XXX
 
 
 ÀýÈç£º
-https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=serachcard&id=1&oid=2&khd=0
+https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_dolike&id=1&oid=2&khd=0
 --------------- ---------------------------------------------------------------------------------------
 ÊÕ²Ø²Ù×÷£ºdo=docollection
 ------------------------------------------------------------------------------------------------------
