@@ -3,6 +3,33 @@ https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=XXX
 
 ------------------------------------------------------------------------------------------------------
 
+查看谁看过我：do=_llc
+
+请求类型：GET
+
+--khd , 0为小程序，1为移动端
+
+--id , 当前用户id
+
+--fun , 获取列表：fun=lookme , 获取点赞列表 fun = likeme ， 获取收藏列表 fun = colleme
+
+
+--pn , 获取数据的页数
+
+--pz ，一页有多少行数据，不传值情况默认获取10行
+
+例如：
+
+谁看过我 ：
+		https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_llc&khd=0&id=1&fun=lookme&pn=1&pz=5
+
+点赞我 ：
+		https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_llc&khd=0&id=1&fun=likeme&pn=1&pz=5
+
+我的收藏：
+		https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_llc&khd=0&id=1&fun=colleme&pn=1&pz=5
+
+------------------------------------------------------------------------------------------------------
 查看他人名片：do=cardinfo（更新）
 
 请求类型：GET
@@ -39,8 +66,7 @@ https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=cardinfo&khd=0&
 https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_docolletion&dowhat=1&id=1&oid=2&khd=0
 
 ------------------------------------------------------------------------------------------------------
-查看谁看过我：do=wholookme
-------------------------------------------------------------------------------------------------------
+
 查看谁赞了我：do=looklikeme
 ------------------------------------------------------------------------------------------------------
 查看自己收藏：do=_lookcolletion
@@ -59,7 +85,7 @@ https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_docolletion&do
 
 
 例如：
-https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=serachcard&id=1&khd=0&pn=1&pz=5
+https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_lookcolletion&id=1&khd=0&pn=1&pz=5
 ------------------------------------------------------------------------------------------------------
 
 编辑名片信息：do=serachcard
