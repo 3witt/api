@@ -20,7 +20,7 @@ https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=cardinfo&khd=0&
 
 ------------------------------------------------------------------------------------------------------
 
-点赞操作：do=_colletion
+点赞操作：do=_docolletion
 
 请求类型：GET
 
@@ -34,7 +34,7 @@ https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=cardinfo&khd=0&
 
 
 例如：
-https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_colletion&id=1&oid=2&khd=0
+https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_docolletion&id=1&oid=2&khd=0
 
 --------------- ---------------------------------------------------------------------------------------
 收藏操作：do=_dolike
