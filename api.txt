@@ -47,8 +47,8 @@ https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_img&khd=0&id=1
 收藏我的：
 		https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_llc&khd=0&id=1&fun=colleme&pn=1&pz=5
 
-收藏我的：
-		https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_llc&khd=0&id=1&fun=colleme&pn=1&pz=5
+我的收藏：
+		https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_llc&khd=0&id=1&fun=mycolle&pn=1&pz=5
 
 ------------------------------------------------------------------------------------------------------
 查看他人名片：do=cardinfo（更新）
