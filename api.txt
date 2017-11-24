@@ -132,6 +132,7 @@ https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=serachcard&khd=
 
 POST参数名：
 
+--openid	      当前微信用户唯一标识 id
 --id                  id
 --user_true_name      姓名	    
 --user_zhiwu          职务	    
