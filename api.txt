@@ -13,7 +13,7 @@ https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=XXX
 
 ÀýÈç£º
 
-https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_wx_card&openid=
+https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_wx_card&khd=0&openid=
 
 ------------------------------------------------------------------------------------------------------
 Í¼Æ¬ÉÏ´«£ºdo=_img
