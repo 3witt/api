@@ -70,7 +70,7 @@ https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_img&khd=0&id=1
 
 --khd , 0为小程序，1为移动端
 
---id , 当前用户id
+--id , 当前微信用的openid
 
 --oid , 被查看用户id
 
