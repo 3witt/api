@@ -13,7 +13,7 @@ https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=XXX
 --id , 当前用户名片id
 
 例如：
-https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_generate_img&khd=0&id=1
+https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_generate_img&khd=0&id=
 
 ------------------------------------------------------------------------------------------------------
 
