@@ -30,16 +30,16 @@ https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_generate_img&k
 
 ------------------------------------------------------------------------------------------------------
 
-看过我列表、被点赞列表、被收藏列表、我的收藏列表、获取评论列表：do=_llc
+看过我列表、被点赞列表、被收藏列表、我的收藏列表、获取评论列表、获取我评论的列表：do=_llc
 
 请求类型：GET
 
 --khd , 0为小程序，1为移动端
 
---id , 当前用户名片id（获取评论列表时相当于被评论的名片id）
+--id , 当前用户名片id（获取评论列表时相当于被评论的名片id）（获取我评论的列表传当前用户openid）
 
 --fun , 获取列表：fun=lookme , 获取点赞列表 fun = likeme ， 获取收藏我的列表 fun = colleme ，获取我的收藏列表 fun =  mycolle
-	获取评论列表 fun = comment
+	获取评论列表 fun = comment，获取我的评论列表 fun = mycomment
 
 
 --pn , 获取数据的页数
@@ -62,6 +62,9 @@ https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_generate_img&k
 
 评论列表：
 		https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_llc&khd=0&id=1&fun=comment&pn=1&pz=5
+
+评论我的评论：
+		https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_llc&khd=0&id=｛｝&fun=mycomment&pn=1&pz=5
 
 11-27 13:56
 
