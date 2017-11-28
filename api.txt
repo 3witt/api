@@ -4,6 +4,19 @@ https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=XXX
 
 ------------------------------------------------------------------------------------------------------
 
+删除评论：_delcomment
+
+请求类型：GET
+
+--khd , 0为小程序，1为移动端
+
+--id , 当前评论id
+
+例如：
+https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_delcomment&khd=0&id=
+
+------------------------------------------------------------------------------------------------------
+
 生成图片：_generate_img
 
 请求类型：GET
