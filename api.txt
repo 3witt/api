@@ -70,7 +70,7 @@ POST参数：
 
 例如：
 
-https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_comment&khd=0
+https://ceshi.9yetec h.com/app/index.php?i=2&c=entry&m=www_art&do=_comment&khd=0
 
 11-27 13:34
 
@@ -125,7 +125,9 @@ https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_img&khd=0&id=1
 
 --khd , 0为小程序，1为移动端
 
---id , 当前微信用的openid
+--id , 当前用户名片id
+
+--openid , 当前微信用的openid
 
 --oid , 被查看用户id
 
