@@ -4,11 +4,15 @@ https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=XXX
 
 ------------------------------------------------------------------------------------------------------
 
-获取短信验证码：do = _changephone
+修改手机号：do = _changephone
+
+请求类型：POST
 
 主要参数：
 
 --khd , 0为小程序，1为移动端
+
+POST参数：
 
 --newphone , 新的号码
 
