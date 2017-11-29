@@ -4,15 +4,37 @@ https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=XXX
 
 ------------------------------------------------------------------------------------------------------
 
-获取短信验证码：do = _sms
+获取短信验证码：do = _changephone
 
 主要参数：
 
 --khd , 0为小程序，1为移动端
 
+--newphone , 新的号码
+
+--oldphone , 旧的号码
+
+--code , 验证码
+
+https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_changephone&khd=0
+
+------------------------------------------------------------------------------------------------------
+
+获取短信验证码：do = _sms
+
+请求类型：POST
+
+主要参数：
+
+--khd , 0为小程序，1为移动端
+
+POST参数：
+
+--card_id , 当前修改手机号的名片id
+
 --phone , 当前用户名片手机号
 
-https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_sms&phone={}&khd=0
+https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_sms&khd=0
 
 ------------------------------------------------------------------------------------------------------
 
