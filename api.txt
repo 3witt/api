@@ -3,6 +3,24 @@ API地址：
 https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=XXX
 
 ------------------------------------------------------------------------------------------------------
+小程序上传图片接口：do = _xcximg
+
+
+请求类型：POST
+
+
+POST参数：
+
+--access_token , 小程序access_token
+
+--mediaidList , 图片上传成功返回id集合
+
+--openid , 用户微信openid
+
+https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_xcximg
+
+------------------------------------------------------------------------------------------------------
+
 
 修改手机号：do = _changephone
 
