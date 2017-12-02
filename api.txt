@@ -11,11 +11,15 @@ https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=XXX
 
 POST参数：
 
---access_token , 小程序access_token
+--access_token1 , 小程序access_token
 
---mediaidList , 图片上传成功返回id集合
+--mediaidList1 , 图片上传成功返回id集合
 
 --openid , 用户微信openid
+
+--file_name , 上传微信服务器后返回的文件名
+
+--type , 上传的文件类型（后缀名）
 
 https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_xcximg
 
