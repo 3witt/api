@@ -112,6 +112,10 @@ post参数：
 
 --openid , 用户微信openid
 
+--name , 微信用户名
+
+--head_img ，微信头像
+
 --file_name , 上传微信服务器后返回的文件名
 
 --type , 上传的文件类型（后缀名）
