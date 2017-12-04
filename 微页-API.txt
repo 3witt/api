@@ -1,0 +1,168 @@
+API地址：
+
+https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_weiye&what=XXX&id=XXX
+
+------------------------------------------------------------------------------------------------------
+首页请求：what = index（也可为空）
+
+请求方式:GET
+
+主要参数：
+
+khd : 0 小程序，否则H5
+
+id : 公司（店铺）id
+
+返回参数：
+
+statusCode ，返回状态，1：成功，否则失败
+
+data ，返回请求数据（result:详细信息，comment:评论内容）
+
+例如：
+https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_weiye&khd=0&id=XXX
+
+------------------------------------------------------------------------------------------------------
+查看分公司：what = branch
+
+请求方式:GET
+
+主要参数：
+
+khd : 0 小程序，否则H5
+
+id : 分公司（店铺）branch_id
+
+返回参数：
+
+statusCode ，返回状态，1：成功，否则失败
+
+data ，返回请求数据
+
+例如：
+https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_weiye&what=branch&khd=0&id=XXX
+
+------------------------------------------------------------------------------------------------------
+查看评论：what = comment
+
+请求方式:GET
+
+主要参数：
+
+khd , 0 小程序，否则H5
+
+id : 公司（店铺）id
+
+pn : 查看页数
+
+pz : 查看每页的列数（默认10行）
+
+返回参数：
+
+statusCode ，返回状态，1：成功，否则失败
+
+data ，返回请求数据
+
+例如：
+https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_weiye&what=comment&khd=0&pn=1&pz=10&id=XXX
+
+------------------------------------------------------------------------------------------------------
+提交评价：what = ccm
+
+请求方式:POST
+
+主要参数：
+
+khd : 0 小程序，否则H5
+
+id : 公司（店铺）id
+
+post参数：
+
+openid : 用户openid
+
+comment ： 评价内容
+
+score : 评分
+
+返回参数：
+
+statusCode ，返回状态，1：成功，否则失败
+
+data ，""（空）
+
+例如：
+https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_weiye&what=ccm&khd=0&id=XXX
+
+------------------------------------------------------------------------------------------------------
+提交评价：what = up
+
+请求方式:POST
+
+主要参数：
+
+khd : 0 小程序，否则H5
+
+post参数：
+
+
+--access_token , 小程序access_token
+
+--mediaidList , 图片上传成功返回id集合
+
+--openid , 用户微信openid
+
+--file_name , 上传微信服务器后返回的文件名
+
+--type , 上传的文件类型（后缀名）
+
+返回参数：
+
+statusCode ，返回状态，1：成功，否则失败
+
+data ，返回上传成功后所有图片路径
+
+例如：
+https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_weiye&khd=0&what=up
+
+------------------------------------------------------------------------------------------------------
+新增收货地址：what = shdz
+
+请求方式:POST
+
+主要参数：
+
+khd : 0 小程序，否则H5
+
+post参数：
+
+--openid , 用户微信openid
+
+--caontact_name, 联系人姓名
+
+--sex , 性别
+
+--call_number , 联系电话
+
+--province , 省份
+
+--city , 市
+
+--area ,  区
+
+--address , 详细信息
+
+--address_type , 地址类型
+
+--post_code , 邮政编号
+
+返回参数：
+
+statusCode ，返回状态，1：成功，否则失败
+
+data ，""
+
+例如：
+https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_weiye&what=shdz&khd=0
+
+------------------------------------------------------------------------------------------------------
