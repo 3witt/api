@@ -3,6 +3,54 @@ API地址：
 https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_weiye&what=XXX&id=XXX
 
 ------------------------------------------------------------------------------------------------------
+编辑用户信息：what = user
+
+请求方式:GET
+
+主要参数：
+
+khd : 0 小程序，否则H5
+
+openid : 微信用户openid
+
+返回参数：
+
+statusCode ，返回状态，1：成功，否则失败
+
+data ，返回请求数据
+
+例如：
+https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_weiye&what=user&khd=0&openid=xxxxxxx
+
+------------------------------------------------------------------------------------------------------
+编辑用户信息：what = edit
+
+请求方式:POST
+
+主要参数：
+
+khd : 0 小程序，否则H5
+
+POST参数：
+
+--openid	微信openid
+--name		名字
+--head_img	头像
+--sex		性别
+--phone		手机
+--address	地址
+--introduction	自我介绍
+
+返回参数：
+
+statusCode ，返回状态，1：成功，否则失败
+
+data ，返回1失败返回0
+
+例如：
+https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_weiye&what=edit&khd=0
+
+------------------------------------------------------------------------------------------------------
 首页请求：what = index（也可为空）
 
 请求方式:GET
