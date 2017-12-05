@@ -3,7 +3,7 @@ API地址：
 https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_weiye&what=XXX&id=XXX
 
 ------------------------------------------------------------------------------------------------------
-编辑用户信息：what = user
+获取用户信息：what = user
 
 请求方式:GET
 
