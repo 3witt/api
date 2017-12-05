@@ -133,16 +133,11 @@ khd : 0 小程序，否则H5
 
 post参数：
 
-
 --access_token , 小程序access_token
 
 --mediaidList , 图片上传成功返回id集合
 
 --openid , 用户微信openid
-
---name , 微信用户名
-
---head_img ，微信头像
 
 --file_name , 上传微信服务器后返回的文件名
 
