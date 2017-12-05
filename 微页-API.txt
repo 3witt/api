@@ -83,6 +83,10 @@ openid : 用户openid
 
 comment ： 评价内容
 
+name: 微信名
+
+head_img头像
+
 score : 评分
 
 返回参数：
