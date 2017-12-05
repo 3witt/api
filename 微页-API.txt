@@ -95,7 +95,31 @@ data ，""（空）
 https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_weiye&what=ccm&khd=0&id=XXX
 
 ------------------------------------------------------------------------------------------------------
-提交评价：what = up
+上传图片：what = up（H5）
+
+请求方式:POST
+
+主要参数：
+
+khd : 0 小程序，否则H5
+
+post参数：
+
+--openid , 微信用户openid
+
+--file , 文件
+
+返回参数：
+
+statusCode ，返回状态，1：成功，否则失败
+
+data ，返回上传成功后所有图片路径
+
+例如：
+https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_weiye&khd=1&what=up
+
+------------------------------------------------------------------------------------------------------
+上传图片：what = up（小程序）
 
 请求方式:POST
 
