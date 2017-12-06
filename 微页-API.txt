@@ -3,6 +3,26 @@ API地址：
 https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_weiye&what=XXX&id=XXX
 
 ------------------------------------------------------------------------------------------------------
+获取收货地址：what = hqshdz
+
+请求方式:GET
+
+主要参数：
+
+khd : 0 小程序，否则H5
+
+openid : 微信用户openid
+
+返回参数：
+
+statusCode ，返回状态，1：成功，否则失败
+
+data ，返回请求数据
+
+例如：
+https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_weiye&what=hqshdz&khd=0&openid=xxxxxxx
+
+------------------------------------------------------------------------------------------------------
 获取用户信息：what = user
 
 请求方式:GET
@@ -133,7 +153,7 @@ comment ： 评价内容
 
 name: 微信名
 
-head_img头像
+head_img：头像
 
 score : 评分
 
