@@ -1,0 +1,26 @@
+API地址：
+
+https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=showc&what=XXX
+
+------------------------------------------------------------------------------------------------------
+
+首页请求：what = index（可为空）
+
+请求方式:GET
+
+主要参数：
+
+khd : 0 小程序，否则H5
+
+id : 公司（店铺）id
+
+返回参数：
+
+statusCode ，返回状态，1：成功，否则失败
+
+data ，返回请求数据（result:详细信息，comment:评论内容）
+
+例如：
+https://ceshi.9yetech.com/app/index.php?i=2&c=entry&m=www_art&do=_showc&khd=0&id=1
+
+------------------------------------------------------------------------------------------------------
